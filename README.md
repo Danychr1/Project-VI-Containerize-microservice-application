@@ -24,9 +24,16 @@ Traditional deployment methods for microservices face challenges such as:
 Containerizing the Emart application using Docker solves these challenges by:
 
   ✅ Encapsulating Each Microservice – Every microservice runs in its own Docker container, ensuring consistency across environments.
+  
   ✅ Dependency Isolation – Each container includes only the necessary dependencies, avoiding version conflicts.
+  
   ✅ Easy Deployment & Scaling – Docker allows services to be deployed and scaled independently using orchestration tools like Kubernetes or Docker Compose.
+  
   ✅ Portability – Containers can run on any cloud provider, ensuring seamless migration between environments.
+  
   ✅ Improved DevOps Efficiency – Simplifies CI/CD pipelines, making deployments faster and more reliable.
+
+
+  
 
 
